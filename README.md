@@ -7,7 +7,8 @@ Kishan Patel <br />
 Pathik Patel <br />
 Asad Kothawala <br />
 
-![Application Architecture](https://github.com/narencsp/CloudPhotoShare/blob/master/CloudPhotoShare-Architecture.png)
+# Application Architecture
+![Application_Architecture](https://github.com/narencsp/CloudPhotoShare/blob/master/CloudPhotoShare-Architecture.png)
 
 # Overview 
 The project is a web application as a front that is hosted on AWS Elastic Beanstalk where users 
@@ -39,11 +40,11 @@ to this user.
 5) Upload Tab – User can upload an image from their local machine into their account.  
   
 6) Share Image Options –  
-  1) With the application users – Images will be shared with the fellow application users 
+    1) With the application users – Images will be shared with the fellow application users 
      with the search of their name.  
-  2) Create a link – This will create a link for the selected image to be shared with the 
+    2) Create a link – This will create a link for the selected image to be shared with the 
      world (anyone with this link can view the image).  
-  3) Create link with TTL (Time to Live) - Creates a link with the duration of 24 hours 
+    3) Create link with TTL (Time to Live) - Creates a link with the duration of 24 hours 
      image will remain active. Then the image link will expire.   
  
 7) Notification – A notification is sent as an Email and as an SMS to the user(s) when an image 
